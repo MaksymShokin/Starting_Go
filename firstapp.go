@@ -16,6 +16,17 @@ func main() {
 	fmt.Println(greetingText)
 	fmt.Println(luckyNumber)
 
+	var superLuckyNumber float64 = float64(luckyNumber) / 4
+
+	fmt.Println(superLuckyNumber)
+
+	var defaultFloat float64 = 1.12345678901234567890 // 1.1234567890123457
+	var smallFloat float32 = 1.12345678901234567890 // 1.1234568
+
+	fmt.Println(defaultFloat)
+	fmt.Println(smallFloat)
+
+
 }
 
 // run file go run first_app.go
