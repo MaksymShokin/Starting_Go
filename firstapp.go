@@ -30,12 +30,30 @@ func main() {
 	fmt.Println(firstRune)
 	fmt.Println(string(firstRune))
 
-
 	var firstByte byte = 'a'
 	fmt.Println(firstByte)
 	fmt.Println(string(firstByte))
 
 	// var firstBool = false
+
+	firstName := "Max"
+	lastName := "Shokin"
+
+	fmt.Println(firstName + " " + lastName)
+
+	var fl float32 = 3.3
+	var fl2 float64 = 3.3
+
+	fmt.Println(fl + float32(fl2))
+
+	fmt.Println("8" + string(9))
+
+	mline := `This is a multiline string!	
+	     It is quite long.
+	
+	And spans multiple lines!`
+
+	fmt.Println(mline)
 
 }
 
