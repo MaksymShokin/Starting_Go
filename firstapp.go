@@ -55,6 +55,22 @@ func main() {
 
 	fmt.Println(mline)
 
+
+
+	age := 27
+
+	fmt.Println("My name is " + firstName + " and I am " + fmt.Sprint(age) + " years old\n")
+
+	fmt.Printf("My name is %v and I am %v Type(%T) years old \n", firstName, age, age)
+
+	// store string to var
+
+	formattedString := fmt.Sprintf("My name is %v and I am %v Type(%T) years old", firstName, age, age)
+
+	fmt.Println(formattedString)
+
+
+
 }
 
 // run file go run first_app.go
