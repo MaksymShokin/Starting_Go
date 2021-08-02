@@ -15,7 +15,7 @@
 //   Hint: You might need to look into https://golang.org/pkg/fmt/#hdr-Printing to learn how to
 //   output two decimal places (or scroll to the bottom of this file).
 
-package main
+package task2
 
 import "fmt"
 

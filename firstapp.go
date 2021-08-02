@@ -1,19 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/maksymSh/firstapp/variables"
+)
 
 func main() {
 	// var greetingText string
 	// greetingText = "Hello World"
-
-	var greetingText string = "Hello World"
 
 	// var greetingText = "Hello World"
 
 	// greetingText := "Hello World"
 	luckyNumber := 17
 
-	fmt.Println(greetingText)
+	fmt.Println(variables.GreetingText)
 	fmt.Println(luckyNumber)
 
 	var superLuckyNumber float64 = float64(luckyNumber) / 4
@@ -46,7 +48,7 @@ func main() {
 
 	fmt.Println(fl + float32(fl2))
 
-	fmt.Println("8" + string(9))
+	fmt.Println("8" + fmt.Sprint(9))
 
 	mline := `This is a multiline string!	
 	     It is quite long.
@@ -54,8 +56,6 @@ func main() {
 	And spans multiple lines!`
 
 	fmt.Println(mline)
-
-
 
 	age := 27
 
@@ -69,8 +69,11 @@ func main() {
 
 	fmt.Println(formattedString)
 
-
-
 }
 
 // run file go run first_app.go
+
+// with mod file
+// go run .
+
+// go mod init github.com/yourorg/name

@@ -29,7 +29,7 @@
 // Try all those steps on your own first, then have a look at my solution
 // lecture to compare your solution to mine!
 
-package main
+package task1
 
 import "fmt"
 
